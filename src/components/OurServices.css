@@ -1,0 +1,118 @@
+/* Fonts */
+.services-section,
+.services-section * {
+  font-family: "Times New Roman", Times, serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.services-title,
+.service-title-btn {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+}
+
+/* Section */
+.services-section {
+  padding: 50px 30px 0; /* Top 50px, bottom 0 */
+  background-color: skyblue;
+}
+
+/* Heading */
+.services-title {
+  text-align: center;
+  font-size: 34px;
+  font-weight: 700;
+  color: #0b3c91;
+  margin-bottom: 15px; /* Space between heading and slider */
+}
+
+/* Slider adjustments */
+.services-section .slick-slider,
+.services-section .slick-list,
+.services-section .slick-track {
+  margin: 0;
+  padding: 0;
+}
+
+.services-section .slick-slide {
+  padding: 0 15px; /* spacing between slides */
+  margin: 0;       /* remove extra bottom margin */
+}
+
+.services-section .slick-dots {
+  margin: 0;       /* remove default margin below slides */
+  padding: 0;      /* remove default padding */
+  bottom: 0;       /* stick dots to the bottom */
+}
+
+/* Service card */
+.service-slide,
+.service-card {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Card hover effect */
+.service-card:hover {
+  transform: translateY(-6px);
+}
+
+/* Image */
+.service-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+/* Content */
+.service-content {
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-grow: 1;
+}
+
+/* Buttons */
+.service-title-btn {
+  background: none;
+  border: none;
+  font-size: 18px;
+  font-weight: 600;
+  color: #0b3c91;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.service-title-btn:hover {
+  text-decoration: underline;
+}
+
+.read-more-btn {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.readmore:hover {
+  text-decoration: underline;
+}
+
+/* Slick dots */
+.slick-dots li button:before {
+  font-size: 10px;
+  color: #0b3c91;
+}
+
+.slick-dots li.slick-active button:before {
+  color: #ffb703;
+}

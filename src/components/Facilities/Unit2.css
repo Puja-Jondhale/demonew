@@ -1,0 +1,62 @@
+.unit2-container {
+  font-family: "Times New Roman", Times, serif;
+  padding: 50px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+
+.unit-title {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.header-section {
+  text-align: center;
+}
+
+.center-text {
+  margin-top: 20px;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 50px 0;
+  flex-wrap: wrap;
+}
+
+
+
+.text {
+  flex: 1;
+  padding: 20px;
+  min-width: 300px;
+}
+
+.image-left, .image-right {
+  flex: 1;
+  padding: 10px;
+}
+
+.text-left, .text-right {
+  flex: 1;
+  padding: 10px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 400;
+}
+.box-image {
+  max-width: 500px;
+  width: 100%;
+  border: 2px solid #ccc;
+  padding: 10px;
+  box-sizing: border-box;
+  margin: 10px;
+}
+
+.slider-container {
+  margin: 50px 0;
+}

@@ -1,0 +1,62 @@
+/* Apply Times New Roman to entire section */
+.why-choose-us,
+.why-choose-us * {
+  font-family: "Times New Roman", Times, serif;
+}
+
+.why-title {
+  text-align: center;
+  font-weight: bold;
+  font-size: 36px;
+  margin-bottom: 40px;
+}
+
+.why-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 20px;
+  background-color: skyblue;
+}
+
+.why-left {
+  flex: 1;
+  min-width: 300px;
+}
+
+.why-left img {
+  width: 70%;
+  height: 50%;
+  border-radius: 10px;
+}
+
+.why-right {
+  flex: 1;
+  min-width: 300px;
+}
+
+.why-right h2 {
+  margin-bottom: 20px;
+  font-size: xx-large;
+  font-style: normal;
+  text-align: center;
+}
+
+.why-right ul {
+  list-style: none;
+  padding: 0;
+}
+
+.why-right li {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 15px;
+  text-decoration-color: rgb(11, 9, 9);
+color: rgb(24, 7, 7);
+}
+
+.why-right .icon {
+  font-size: 100%;
+  margin-right: 10px;
+  color: green;
+}

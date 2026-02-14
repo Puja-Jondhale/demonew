@@ -1,0 +1,143 @@
+.about-container {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #8967e1;
+  line-height: 1.7;
+}
+
+.about-hero {
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+  color: #fff;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.about-hero h1 {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.about-hero p {
+  font-size: 18px;
+  opacity: 0.9;
+}
+
+.about-section {
+  padding: 50px 80px;
+}
+
+.about-section h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #0f3c5c;
+}
+
+.about-section p {
+  margin-bottom: 15px;
+}
+
+.about-section ul {
+  padding-left: 20px;
+}
+
+.about-section ul li {
+  margin-bottom: 8px;
+}
+
+.light-bg {
+  background-color: #89c4ed;
+}
+
+/* Buttons */
+.tab-buttons {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 20px;
+  height: auto;
+}
+
+.tab-buttons button {
+  width: 100%;
+  padding: 14px 18px;
+  border: none;
+  background: #ffffff;
+  text-align: left;
+  font-size: 16px;
+  cursor: pointer;
+  border-left: 4px solid transparent;
+  transition: all 0.3s ease;
+}
+
+.tab-buttons button:hover {
+  background-color: #4c41cc;
+}
+
+.tab-buttons button.active {
+  background-color: #007bff;
+  color: white;
+}
+
+/* Content Box */
+.tab-content .content-box {
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: white;
+}
+
+.section-title {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.why-choose-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  padding: 0 20px;
+}
+
+.why-box {
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 30px 20px;
+  text-align: center;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.why-box:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.12);
+}
+
+.why-box img {
+  width: 70px;
+  height: 70px;
+  margin-bottom: 20px;
+}
+
+.why-box h3 {
+  margin-bottom: 12px;
+  font-size: 18px;
+  color: #1f2937;
+}
+
+.why-box p {
+  font-size: 14px;
+  line-height: 1.6;
+  color: #4b5563;
+}
+
+/* Responsive */
+@media (max-width: 992px) {
+  .why-choose-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 576px) {
+  .why-choose-grid {
+    grid-template-columns: 1fr;
+  }
+}
+

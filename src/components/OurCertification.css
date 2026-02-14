@@ -1,0 +1,125 @@
+/* Main Section */
+#OurCertification {
+  padding: 60px 20px;
+  background-color:skyblue;
+  font-family: "Times New Roman", Times, serif;
+  text-align: center; /* Center everything */
+}
+
+/* Container */
+.cert-container,
+.award-text {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+/* ========================= */
+/* H1 MAIN HEADINGS */
+/* ========================= */
+
+.cert-main-title,
+.award-main-title {
+  font-size: 32px;       /* Bigger size */
+  font-weight: bold;     /* Make bold */
+  color: #000000;
+  margin-bottom: 25px;
+}
+
+/* ========================= */
+/* Sub Headings */
+/* ========================= */
+
+.cert-text h3,
+.award-text h3 {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+/* ========================= */
+/* Paragraph Styling */
+/* ========================= */
+
+.cert-text p,
+.award-text p {
+  font-size: 18px;
+  line-height: 1.8;
+  color: #333;
+  margin-bottom: 20px;
+  text-align: center;   /* Center paragraph */
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* ========================= */
+/* Certificate Image Grid */
+/* ========================= */
+
+.cert-image-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  justify-items: center;
+  margin-top: 40px;
+}
+
+.cert-box {
+  width: 250px;
+  background: #ffffff;
+  padding: 12px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.cert-box img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+/* ========================= */
+/* Award Image Grid */
+/* ========================= */
+
+.award-image-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+  justify-items: center;
+  margin-top: 40px;
+}
+
+.award-box {
+  width: 320px;
+  background: #ffffff;
+  padding: 15px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.award-box img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+/* ========================= */
+/* Responsive */
+/* ========================= */
+
+@media (max-width: 992px) {
+  .cert-image-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .award-image-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 576px) {
+  .cert-image-grid {
+    grid-template-columns: 1fr;
+  }
+}

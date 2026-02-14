@@ -1,0 +1,40 @@
+.valued-customers,
+.valued-customers * {
+  font-family: "Times New Roman", Times, serif;
+}
+
+.valued-customers {
+  background: #f5f7fa;
+  padding: 60px 40px;
+  text-align: center;
+}
+
+.customers-title {
+  font-size: 32px;
+  font-weight: 700;
+  color: #0a2a66;
+  margin-bottom: 40px;
+}
+
+.customer-slider {
+  margin-bottom: 30px;
+}
+
+.customer-logo {
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+}
+
+.customer-logo img {
+  max-width: 140px;
+  max-height: 80px;
+  object-fit: contain;
+  filter: grayscale(100%);
+  transition: 0.3s ease;
+}
+
+.customer-logo img:hover {
+  filter: grayscale(0%);
+  transform: scale(1.05);
+}
